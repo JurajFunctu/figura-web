@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIGURA – Štúdio výživy a vitality</title>
+    <meta name="description" content="Naučím vás rozumieť svojmu telu cez výživu. Bez extrémov, bez diét, bez chaosu.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+        <div class="nav__container">
+            <a href="#" class="nav__logo">FIGURA</a>
+            <button class="nav__toggle" id="navToggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav__menu" id="navMenu">
+                <li><a href="#o-mne" class="nav__link">O mne</a></li>
+                <li><a href="#sluzby" class="nav__link">Služby</a></li>
+                <li><a href="#cennik" class="nav__link">Cenník</a></li>
+                <li><a href="#kontakt" class="nav__link">Kontakt</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero" id="hero">
+        <div class="hero__bg"></div>
+        <div class="container">
+            <div class="hero__content reveal">
+                <span class="hero__tag">Štúdio výživy a vitality</span>
+                <h1 class="hero__title">Naučím vás rozumieť<br>svojmu telu cez výživu</h1>
+                <p class="hero__subtitle">Bez extrémov, bez diét, bez chaosu. Pomáham vám nájsť energiu, rovnováhu a funkčné telo cez pochopenie súvislostí.</p>
+                <a href="#kontakt" class="btn btn--primary">Objednať konzultáciu</a>
+            </div>
+        </div>
+        <div class="hero__scroll">
+            <span>Zistiť viac</span>
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+        </div>
+    </section>
+
+    <!-- O mne -->
+    <section class="section section--cream" id="o-mne">
+        <div class="container">
+            <div class="about">
+                <div class="about__image reveal reveal--left">
+                    <div class="about__image-frame">
+                        <div class="about__image-placeholder">
+                            <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" opacity="0.3">
+                                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+                                <circle cx="12" cy="7" r="4"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="about__image-accent"></div>
+                </div>
+                <div class="about__text reveal reveal--right">
+                    <span class="section__tag">O mne</span>
+                    <h2 class="section__title">Príbeh, ktorý začal<br>otázkou o tele</h2>
+                    <p>O výživu sa zaujímam od svojich 15 rokov. Začalo to otázkou, prečo niektorým ľuďom telo funguje prirodzene a iným nie.</p>
+                    <p>Postupne som na vlastnom tele hľadala odpovede. Riešila som váhu, akné po 18. roku, energiu, obdobie po pôrode, dlhé kojenie, nedostatok spánku, extrémne tréningy aj rôzne výživové prístupy.</p>
+                    <p>Prešla som si aj náročnejším obdobím po covide, ktoré výrazne ovplyvnilo moju energiu a fungovanie tela.</p>
+                    <p>Dnes pracujem s klientmi tak, aby pochopili súvislosti vo svojom tele a vedeli sa správne rozhodovať v bežnom živote.</p>
+                    <p class="about__highlight">Neučím vás len čo jesť. Učím vás, ako nad jedlom premýšľať.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pre koho -->
+    <section class="section" id="pre-koho">
+        <div class="container">
+            <div class="section__header reveal">
+                <span class="section__tag">Pre koho je poradenstvo</span>
+                <h2 class="section__title">Každý človek je iný</h2>
+                <p class="section__desc">Pracujem s deťmi, dospelými aj seniormi. Neexistuje jeden univerzálny jedálniček. Pomáham vám pochopiť vaše telo, jeho potreby a signály tak, aby ste vedeli robiť správne rozhodnutia dlhodobo.</p>
+            </div>
+            <div class="cards cards--three">
+                <div class="card reveal">
+                    <div class="card__icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M9 12l2 2 4-4"/>
+                            <path d="M12 3c-1.2 0-2.4.6-3 1.5A3.5 3.5 0 0 0 5 8c0 6 7 13 7 13s7-7 7-13a3.5 3.5 0 0 0-4-3.5C14.4 3.6 13.2 3 12 3z"/>
+                        </svg>
+                    </div>
+                    <h3 class="card__title">Deti</h3>
+                    <ul class="card__list">
+                        <li>Vyberavosť v jedle</li>
+                        <li>Častá chorobnosť</li>
+                        <li>Trávenie</li>
+                        <li>Nadmerná chuť na sladké</li>
+                        <li>Energia a sústredenie</li>
+                    </ul>
+                </div>
+                <div class="card reveal">
+                    <div class="card__icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+                            <circle cx="12" cy="7" r="4"/>
+                        </svg>
+                    </div>
+                    <h3 class="card__title">Dospelí</h3>
+                    <ul class="card__list">
+                        <li>Chudnutie bez extrémov</li>
+                        <li>Únava a nedostatok energie</li>
+                        <li>Trávenie</li>
+                        <li>Metabolické problémy</li>
+                        <li>Dlhodobé zlepšenie životného štýlu</li>
+                    </ul>
+                </div>
+                <div class="card reveal">
+                    <div class="card__icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                            <path d="M2 17l10 5 10-5"/>
+                            <path d="M2 12l10 5 10-5"/>
+                        </svg>
+                    </div>
+                    <h3 class="card__title">Seniori</h3>
+                    <ul class="card__list">
+                        <li>Energia a vitalita</li>
+                        <li>Trávenie</li>
+                        <li>Podpora celkového fungovania organizmu</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- S čím pomáham -->
+    <section class="section section--sage" id="sluzby">
+        <div class="container">
+            <div class="section__header reveal">
+                <span class="section__tag section__tag--light">S čím pomáham</span>
+                <h2 class="section__title section__title--light">Oblasti, v ktorých vám pomôžem</h2>
+            </div>
+            <div class="cards cards--grid">
+                <div class="help-card reveal">
+                    <div class="help-card__icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+                    </div>
+                    <h3 class="help-card__title">Metabolické zdravie</h3>
+                    <ul class="help-card__list">
+                        <li>Inzulínová rezistencia a cukrovka</li>
+                        <li>Kolísanie energie a únava</li>
+                        <li>Nadváha a problém s chudnutím</li>
+                    </ul>
+                </div>
+                <div class="help-card reveal">
+                    <div class="help-card__icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>
+                    </div>
+                    <h3 class="help-card__title">Kardiovaskulárne zdravie</h3>
+                    <ul class="help-card__list">
+                        <li>Zvýšený cholesterol</li>
+                        <li>Podpora životného štýlu pri krvnom tlaku</li>
+                    </ul>
+                </div>
+                <div class="help-card reveal">
+                    <div class="help-card__icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                    </div>
+                    <h3 class="help-card__title">Energia a stres</h3>
+                    <ul class="help-card__list">
+                        <li>Chronická únava, vyčerpanie</li>
+                        <li>Dlhodobý stres</li>
+                        <li>Výkyvy energie</li>
+                    </ul>
+                </div>
+                <div class="help-card reveal">
+                    <div class="help-card__icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
+                    </div>
+                    <h3 class="help-card__title">Trávenie a črevá</h3>
+                    <ul class="help-card__list">
+                        <li>Nafukovanie, citlivé trávenie</li>
+                        <li>Problémy so stolicou</li>
+                        <li>Črevná rovnováha</li>
+                    </ul>
+                </div>
+                <div class="help-card reveal">
+                    <div class="help-card__icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                    </div>
+                    <h3 class="help-card__title">Imunita a zápal</h3>
+                    <ul class="help-card__list">
+                        <li>Podpora organizmu pri chronických ťažkostiach</li>
+                        <li>Zápalové zaťaženie organizmu</li>
+                    </ul>
+                </div>
+                <div class="help-card reveal">
+                    <div class="help-card__icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3v18M3 12h18M5.63 5.63l12.74 12.74M18.37 5.63L5.63 18.37"/></svg>
+                    </div>
+                    <h3 class="help-card__title">Celkové nastavenie organizmu</h3>
+                    <p class="help-card__text">Aj keď nemáte konkrétnu diagnózu, ale necítite sa dobre, pracujeme na tom, aby telo fungovalo stabilnejšie a malo viac energie.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Čím sa odlišujem -->
+    <section class="section">
+        <div class="container">
+            <div class="differ">
+                <div class="differ__text reveal">
+                    <span class="section__tag">Čím sa odlišujem</span>
+                    <h2 class="section__title">Prístup, ktorý má zmysel</h2>
+                </div>
+                <div class="differ__items">
+                    <div class="differ__item reveal">
+                        <span class="differ__number">01</span>
+                        <p>Výživu nevnímam povrchne. Nepracujem len s kalóriami a tabuľkami.</p>
+                    </div>
+                    <div class="differ__item reveal">
+                        <span class="differ__number">02</span>
+                        <p>Pozerám sa na telo v súvislostiach. Energia, trávenie, psychika aj životný štýl spolu úzko súvisia.</p>
+                    </div>
+                    <div class="differ__item reveal">
+                        <span class="differ__number">03</span>
+                        <p>Každý klient je pre mňa individuálny proces, nie univerzálny plán.</p>
+                    </div>
+                    <div class="differ__item reveal">
+                        <span class="differ__number">04</span>
+                        <p>Neučím vás len dodržiavať jedálniček. Učím vás rozumieť tomu, čo vaše telo potrebuje.</p>
+                    </div>
+                    <div class="differ__item reveal">
+                        <span class="differ__number">05</span>
+                        <p>Aj pri náročnejších stavoch vždy hľadáme možnosti, ako telo podporiť a zlepšiť jeho fungovanie.</p>
+                    </div>
+                    <div class="differ__item reveal">
+                        <span class="differ__number">06</span>
+                        <p>Výživa má fungovať v reálnom živote, nie len na papieri.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ako prebieha spolupráca -->
+    <section class="section section--cream">
+        <div class="container">
+            <div class="section__header reveal">
+                <span class="section__tag">Ako prebieha spolupráca</span>
+                <h2 class="section__title">Tri kroky k lepšiemu<br>fungovaniu tela</h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline__item reveal">
+                    <div class="timeline__marker">
+                        <span>1</span>
+                    </div>
+                    <div class="timeline__content">
+                        <h3>Pochopenie</h3>
+                        <p>Na začiatku sa zameriavame na pochopenie vášho aktuálneho stavu. Stravovanie, energia, fungovanie počas dňa a vaše ciele.</p>
+                    </div>
+                </div>
+                <div class="timeline__item reveal">
+                    <div class="timeline__marker">
+                        <span>2</span>
+                    </div>
+                    <div class="timeline__content">
+                        <h3>Prvé kroky</h3>
+                        <p>Následne nastavíme prvé kroky, ktoré sú pre vás reálne zvládnuteľné.</p>
+                    </div>
+                </div>
+                <div class="timeline__item reveal">
+                    <div class="timeline__marker">
+                        <span>3</span>
+                    </div>
+                    <div class="timeline__content">
+                        <h3>Úpravy a pokrok</h3>
+                        <p>Postupne sledujeme, ako telo reaguje, a podľa toho upravujeme ďalšie kroky.</p>
+                    </div>
+                </div>
+            </div>
+            <p class="timeline__closing reveal">Výživa nie je jednorazové riešenie. Je to proces.</p>
+        </div>
+    </section>
+
+    <!-- Ako pracujem s výživou -->
+    <section class="section">
+        <div class="container">
+            <div class="approach">
+                <div class="approach__text reveal">
+                    <span class="section__tag">Ako pracujem s výživou</span>
+                    <h2 class="section__title">Princípy mojej práce</h2>
+                    <p class="approach__lead">Výživa nie je len o tom, čo jete. Je o tom, ako vaše telo funguje ako celok.</p>
+                </div>
+                <div class="approach__grid">
+                    <div class="approach__item reveal">
+                        <div class="approach__icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="3"/><path d="M12 1v6m0 6v6m-7-7h6m6 0h6"/></svg>
+                        </div>
+                        <h4>Skutočné fungovanie</h4>
+                        <p>Zameriavam sa na to, ako sa reálne cítite a ako vaše telo funguje v bežnom živote.</p>
+                    </div>
+                    <div class="approach__item reveal">
+                        <div class="approach__icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/><line x1="4" y1="22" x2="4" y2="15"/></svg>
+                        </div>
+                        <h4>Vyvážený príjem</h4>
+                        <p>Bielkoviny, sacharidy, tuky, mikroživiny. Všetko v rovnováhe prispôsobenej vašim potrebám.</p>
+                    </div>
+                    <div class="approach__item reveal">
+                        <div class="approach__icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                        </div>
+                        <h4>Individuálny prístup</h4>
+                        <p>Žiadne univerzálne riešenia. Každý klient dostáva prístup šitý na mieru.</p>
+                    </div>
+                    <div class="approach__item reveal">
+                        <div class="approach__icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+                        </div>
+                        <h4>Pochopenie, nie počítanie</h4>
+                        <p>Cieľom je, aby ste rozumeli princípom a vedeli sa rozhodovať sami, bez závislosti na jedálničku.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formy spolupráce -->
+    <section class="section section--cream">
+        <div class="container">
+            <div class="section__header reveal">
+                <span class="section__tag">Formy spolupráce</span>
+                <h2 class="section__title">Vyberte si, čo vám vyhovuje</h2>
+            </div>
+            <div class="cards cards--three">
+                <div class="service-card reveal">
+                    <div class="service-card__badge">Jednorazovo</div>
+                    <h3 class="service-card__title">Jednorazová konzultácia</h3>
+                    <p class="service-card__desc">Vhodná, ak potrebujete smerovanie a konkrétne odporúčania.</p>
+                    <a href="#kontakt" class="btn btn--outline">Mám záujem</a>
+                </div>
+                <div class="service-card service-card--featured reveal">
+                    <div class="service-card__badge">Odporúčané</div>
+                    <h3 class="service-card__title">Dlhodobá spolupráca</h3>
+                    <p class="service-card__desc">Vhodná, ak chcete svoj stav riešiť systematicky a dosiahnuť trvalé zmeny.</p>
+                    <a href="#kontakt" class="btn btn--primary">Mám záujem</a>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-card__badge">Na mieru</div>
+                    <h3 class="service-card__title">Jedálniček</h3>
+                    <p class="service-card__desc">Jedálniček vám viem pripraviť, ak na ňom trváte. Mojím cieľom však je, aby ste neboli závislí na presnom pláne, ale vedeli sa rozhodovať sami.</p>
+                    <a href="#kontakt" class="btn btn--outline">Mám záujem</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cenník -->
+    <section class="section" id="cennik">
+        <div class="container">
+            <div class="section__header reveal">
+                <span class="section__tag">Cenník</span>
+                <h2 class="section__title">Transparentné ceny</h2>
+            </div>
+            <div class="pricing">
+                <div class="pricing__item reveal">
+                    <div class="pricing__info">
+                        <h3>Úvodná konzultácia</h3>
+                        <span class="pricing__duration">60 minút</span>
+                    </div>
+                    <div class="pricing__price">45 – 65 &euro;</div>
+                </div>
+                <div class="pricing__item pricing__item--highlight reveal">
+                    <div class="pricing__info">
+                        <h3>Mesačná spolupráca</h3>
+                        <span class="pricing__duration">2 stretnutia</span>
+                    </div>
+                    <div class="pricing__price">99 &euro; <span>/ mesiac</span></div>
+                </div>
+                <div class="pricing__item reveal">
+                    <div class="pricing__info">
+                        <h3>3-mesačný program</h3>
+                        <span class="pricing__duration">6 stretnutí</span>
+                    </div>
+                    <div class="pricing__price">190 &euro; <span>/ 3 mesiace</span></div>
+                </div>
+                <div class="pricing__item reveal">
+                    <div class="pricing__info">
+                        <h3>Konzultácia k výsledkom vyšetrení</h3>
+                        <span class="pricing__duration">Individuálne</span>
+                    </div>
+                    <div class="pricing__price">40 – 60 &euro;</div>
+                </div>
+                <div class="pricing__item reveal">
+                    <div class="pricing__info">
+                        <h3>Individuálny jedálniček + suplementácia</h3>
+                        <span class="pricing__duration">Na mieru</span>
+                    </div>
+                    <div class="pricing__price">49 – 59 &euro;</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section section--cream">
+        <div class="container">
+            <div class="section__header reveal">
+                <span class="section__tag">Časté otázky</span>
+                <h2 class="section__title">Chcete vedieť viac?</h2>
+            </div>
+            <div class="faq">
+                <div class="faq__item reveal">
+                    <button class="faq__question">
+                        <span>Ako prebieha prvá konzultácia?</span>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                    </button>
+                    <div class="faq__answer">
+                        <p>Na prvej konzultácii sa zameriavame na váš aktuálny stav. Prejdeme si stravovanie, energiu, trávenie, spánok a ďalšie oblasti, ktoré ovplyvňujú vaše fungovanie. Na základe toho nastavíme prvé kroky.</p>
+                    </div>
+                </div>
+                <div class="faq__item reveal">
+                    <button class="faq__question">
+                        <span>Musím držať diétu?</span>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                    </button>
+                    <div class="faq__answer">
+                        <p>Nie. Nepracujem s diétami ani extrémami. Cieľom je nastaviť stravovanie tak, aby fungovalo vo vašom bežnom živote a bolo dlhodobo udržateľné.</p>
+                    </div>
+                </div>
+                <div class="faq__item reveal">
+                    <button class="faq__question">
+                        <span>Je spolupráca vhodná aj pre deti?</span>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                    </button>
+                    <div class="faq__answer">
+                        <p>Áno, pracujem aj s deťmi. Pri deťoch sa zameriavame najmä na vyberavosť v jedle, energiu, sústredenie a podporu imunity. Konzultácia prebieha s rodičom.</p>
+                    </div>
+                </div>
+                <div class="faq__item reveal">
+                    <button class="faq__question">
+                        <span>Konzultácie prebiehajú online alebo osobne?</span>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                    </button>
+                    <div class="faq__answer">
+                        <p>Konzultácie prebiehajú online aj osobne, podľa vašich preferencií. Online forma funguje rovnako efektívne.</p>
+                    </div>
+                </div>
+                <div class="faq__item reveal">
+                    <button class="faq__question">
+                        <span>Ako dlho trvá, kým uvidím výsledky?</span>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                    </button>
+                    <div class="faq__answer">
+                        <p>Závisí to od vášho východiskového stavu a cieľov. Prvé zmeny v energii a trávení pocítite väčšinou do 2 – 4 týždňov. Dlhodobejšie výsledky prichádzajú postupne v priebehu mesiacov.</p>
+                    </div>
+                </div>
+                <div class="faq__item reveal">
+                    <button class="faq__question">
+                        <span>Potrebujem pred konzultáciou nejaké vyšetrenia?</span>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                    </button>
+                    <div class="faq__answer">
+                        <p>Nie je to podmienkou, ale ak máte aktuálne výsledky krvných testov alebo iných vyšetrení, určite ich prineste. Pomôžu nám lepšie pochopiť váš stav.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section section--cta">
+        <div class="container">
+            <div class="cta reveal">
+                <h2 class="cta__title">Vždy sa dá niečo zlepšiť.</h2>
+                <p class="cta__text">Stačí pochopiť súvislosti a nastaviť telo tak, aby fungovalo prirodzenejšie a stabilnejšie.</p>
+                <a href="#kontakt" class="btn btn--white">Objednať konzultáciu</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontakt -->
+    <section class="section" id="kontakt">
+        <div class="container">
+            <div class="contact">
+                <div class="contact__info reveal">
+                    <span class="section__tag">Kontakt</span>
+                    <h2 class="section__title">Napíšte mi</h2>
+                    <p>Máte záujem o konzultáciu alebo dlhodobú spoluprácu? Napíšte mi stručne, s čím potrebujete pomôcť, a ozvem sa vám s ďalšími informáciami.</p>
+                    <div class="contact__details">
+                        <div class="contact__detail">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                            <a href="mailto:info@figurastudio.sk">info@figurastudio.sk</a>
+                        </div>
+                        <div class="contact__detail">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                            <span>Slovensko</span>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact__form reveal" id="contactForm">
+                    <div class="form__group">
+                        <label for="name">Meno</label>
+                        <input type="text" id="name" name="name" required placeholder="Vaše meno">
+                    </div>
+                    <div class="form__group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required placeholder="vas@email.sk">
+                    </div>
+                    <div class="form__group">
+                        <label for="message">Správa</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="S čím vám môžem pomôcť?"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn--primary btn--full">Odoslať správu</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__brand">
+                    <span class="footer__logo">FIGURA</span>
+                    <p>Štúdio výživy a vitality</p>
+                </div>
+                <div class="footer__links">
+                    <a href="#o-mne">O mne</a>
+                    <a href="#sluzby">Služby</a>
+                    <a href="#cennik">Cenník</a>
+                    <a href="#kontakt">Kontakt</a>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2026 FIGURA. Všetky práva vyhradené.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+    // Smooth scroll
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            e.preventDefault();
+            const target = document.querySelector(this.getAttribute('href'));
+            if (target) {
+                const navHeight = document.querySelector('.nav').offsetHeight;
+                const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - navHeight;
+                window.scrollTo({ top: targetPosition, behavior: 'smooth' });
+            }
+            // Close mobile menu
+            document.getElementById('navMenu').classList.remove('nav__menu--open');
+            document.getElementById('navToggle').classList.remove('nav__toggle--open');
+            document.body.classList.remove('no-scroll');
+        });
+    });
+
+    // Mobile menu toggle
+    const navToggle = document.getElementById('navToggle');
+    const navMenu = document.getElementById('navMenu');
+    navToggle.addEventListener('click', () => {
+        navMenu.classList.toggle('nav__menu--open');
+        navToggle.classList.toggle('nav__toggle--open');
+        document.body.classList.toggle('no-scroll');
+    });
+
+    // Sticky nav
+    const nav = document.getElementById('nav');
+    let lastScroll = 0;
+    window.addEventListener('scroll', () => {
+        const currentScroll = window.pageYOffset;
+        if (currentScroll > 80) {
+            nav.classList.add('nav--scrolled');
+        } else {
+            nav.classList.remove('nav--scrolled');
+        }
+        lastScroll = currentScroll;
+    });
+
+    // Scroll reveal animations
+    const revealElements = document.querySelectorAll('.reveal');
+    const revealObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('reveal--visible');
+                revealObserver.unobserve(entry.target);
+            }
+        });
+    }, { threshold: 0.1, rootMargin: '0px 0px -60px 0px' });
+
+    revealElements.forEach(el => revealObserver.observe(el));
+
+    // FAQ accordion
+    document.querySelectorAll('.faq__question').forEach(btn => {
+        btn.addEventListener('click', () => {
+            const item = btn.parentElement;
+            const isOpen = item.classList.contains('faq__item--open');
+
+            // Close all
+            document.querySelectorAll('.faq__item').forEach(i => i.classList.remove('faq__item--open'));
+
+            // Toggle current
+            if (!isOpen) {
+                item.classList.add('faq__item--open');
+            }
+        });
+    });
+
+    // Contact form (placeholder handler)
+    document.getElementById('contactForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+        const name = document.getElementById('name').value;
+        const email = document.getElementById('email').value;
+        const message = document.getElementById('message').value;
+
+        // mailto fallback
+        const subject = encodeURIComponent('Konzultácia - FIGURA');
+        const body = encodeURIComponent(`Meno: ${name}\nEmail: ${email}\n\n${message}`);
+        window.location.href = `mailto:info@figurastudio.sk?subject=${subject}&body=${body}`;
+    });
+
+    // Active nav link on scroll
+    const sections = document.querySelectorAll('section[id]');
+    const navLinks = document.querySelectorAll('.nav__link');
+    window.addEventListener('scroll', () => {
+        let current = '';
+        sections.forEach(section => {
+            const sectionTop = section.offsetTop - 120;
+            if (window.pageYOffset >= sectionTop) {
+                current = section.getAttribute('id');
+            }
+        });
+        navLinks.forEach(link => {
+            link.classList.remove('nav__link--active');
+            if (link.getAttribute('href') === '#' + current) {
+                link.classList.add('nav__link--active');
+            }
+        });
+    });
+    </script>
+</body>
+</html>
