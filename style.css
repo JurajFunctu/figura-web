@@ -276,7 +276,6 @@ button {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: center;
     overflow: hidden;
     background: var(--cream);
 }
@@ -290,12 +289,41 @@ button {
         radial-gradient(ellipse at 60% 80%, rgba(201, 160, 160, 0.08) 0%, transparent 50%);
 }
 
+.hero__inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
 .hero__content {
-    text-align: center;
-    max-width: 780px;
+    text-align: left;
+    max-width: 600px;
     padding: 120px 0 80px;
     position: relative;
     z-index: 1;
+}
+
+.hero__image {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-top: 100px;
+}
+
+.hero__image picture {
+    display: block;
+    max-width: 420px;
+    width: 100%;
+}
+
+.hero__image img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 24px 64px rgba(0, 0, 0, 0.08);
 }
 
 .hero__tag {
@@ -425,12 +453,11 @@ button {
     background: linear-gradient(135deg, var(--sage-bg) 0%, var(--cream-dark) 100%);
 }
 
-.about__image-placeholder {
+.about__image-frame img {
     width: 100%;
     height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    object-fit: cover;
+    display: block;
 }
 
 .about__image-accent {
@@ -1100,6 +1127,29 @@ button {
    ======================================== */
 
 @media (max-width: 1024px) {
+    .hero__inner {
+        grid-template-columns: 1fr;
+        gap: 40px;
+        text-align: center;
+    }
+
+    .hero__content {
+        text-align: center;
+        max-width: 780px;
+        padding: 120px 0 0;
+        order: 1;
+    }
+
+    .hero__image {
+        order: 2;
+        padding-top: 0;
+        padding-bottom: 40px;
+    }
+
+    .hero__image picture {
+        max-width: 320px;
+    }
+
     .about {
         grid-template-columns: 1fr;
         gap: 48px;
@@ -1175,7 +1225,11 @@ button {
     }
 
     .hero__content {
-        padding: 100px 0 60px;
+        padding: 100px 0 0;
+    }
+
+    .hero__image picture {
+        max-width: 280px;
     }
 
     .hero__scroll {

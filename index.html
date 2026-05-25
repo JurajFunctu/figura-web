@@ -5,10 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FIGURA – Štúdio výživy a vitality</title>
     <meta name="description" content="Naučím vás rozumieť svojmu telu cez výživu. Bez extrémov, bez diét, bez chaosu.">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="FIGURA – Štúdio výživy a vitality">
+    <meta property="og:description" content="Naučím vás rozumieť svojmu telu cez výživu. Bez extrémov, bez diét, bez chaosu.">
+    <meta property="og:image" content="https://studiovyzivy.sk/katka-og.jpg">
+    <meta property="og:url" content="https://studiovyzivy.sk">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="sk_SK">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="FIGURA – Štúdio výživy a vitality">
+    <meta name="twitter:description" content="Naučím vás rozumieť svojmu telu cez výživu. Bez extrémov, bez diét, bez chaosu.">
+    <meta name="twitter:image" content="https://studiovyzivy.sk/katka-og.jpg">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="canonical" href="https://studiovyzivy.sk">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "FIGURA – Štúdio výživy a vitality",
+        "description": "Naučím vás rozumieť svojmu telu cez výživu. Bez extrémov, bez diét, bez chaosu.",
+        "url": "https://studiovyzivy.sk",
+        "image": "https://studiovyzivy.sk/katka-og.jpg",
+        "email": "info@figurastudio.sk",
+        "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "SK"
+        },
+        "priceRange": "45 – 190 EUR",
+        "openingHoursSpecification": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
+        }
+    }
+    </script>
 </head>
 <body>
     <!-- Navigation -->
@@ -33,11 +68,19 @@
     <section class="hero" id="hero">
         <div class="hero__bg"></div>
         <div class="container">
-            <div class="hero__content reveal">
-                <span class="hero__tag">Štúdio výživy a vitality</span>
-                <h1 class="hero__title">Naučím vás rozumieť<br>svojmu telu cez výživu</h1>
-                <p class="hero__subtitle">Bez extrémov, bez diét, bez chaosu. Pomáham vám nájsť energiu, rovnováhu a funkčné telo cez pochopenie súvislostí.</p>
-                <a href="#kontakt" class="btn btn--primary">Objednať konzultáciu</a>
+            <div class="hero__inner">
+                <div class="hero__content reveal">
+                    <span class="hero__tag">Štúdio výživy a vitality</span>
+                    <h1 class="hero__title">Naučím vás rozumieť<br>svojmu telu cez výživu</h1>
+                    <p class="hero__subtitle">Bez extrémov, bez diét, bez chaosu. Pomáham vám nájsť energiu, rovnováhu a funkčné telo cez pochopenie súvislostí.</p>
+                    <a href="#kontakt" class="btn btn--primary">Objednať konzultáciu</a>
+                </div>
+                <div class="hero__image reveal reveal--right">
+                    <picture>
+                        <source srcset="katka-portrait.webp" type="image/webp">
+                        <img src="katka-portrait.png" alt="Katka, poradkyňa pre výživu a vitalitu v štúdiu FIGURA" width="800" height="1000" loading="eager">
+                    </picture>
+                </div>
             </div>
         </div>
         <div class="hero__scroll">
@@ -52,12 +95,10 @@
             <div class="about">
                 <div class="about__image reveal reveal--left">
                     <div class="about__image-frame">
-                        <div class="about__image-placeholder">
-                            <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" opacity="0.3">
-                                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
-                                <circle cx="12" cy="7" r="4"/>
-                            </svg>
-                        </div>
+                        <picture>
+                            <source srcset="katka-portrait.webp" type="image/webp">
+                            <img src="katka-portrait.png" alt="Katka, poradkyňa pre výživu v štúdiu FIGURA" width="800" height="1000" loading="lazy">
+                        </picture>
                     </div>
                     <div class="about__image-accent"></div>
                 </div>
